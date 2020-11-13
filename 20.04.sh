@@ -121,7 +121,7 @@ echo "/usr/sbin/nologin" >> /etc/shells
 # squid
 apt-get -y install squid
 #apt-get -y install squid3
-wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/guardeumvpn/Qwer77/master/squid.conf"
+wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/Suri6316/ggggg/main/squid.conf"
 #wget -O /etc/squid3/squid.conf "https://raw.githubusercontent.com/guardeumvpn/Qwer77/master/squid.conf"
 sed -i "s/ipserver/$myip/g" /etc/squid/squid.conf
 #sed -i "s/ipserver/$myip/g" /etc/squid3/squid.conf
@@ -166,7 +166,7 @@ clear
 service ssh restart
 service openvpn restart
 service dropbear restart
-service nginx restart
+#service nginx restart
 #service php7.0-fpm restart
 service webmin restart
 #service squid3 restart
